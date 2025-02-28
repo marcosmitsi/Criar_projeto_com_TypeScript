@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noEmit": false,
+    "removeComments": true,
+    "strict": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+/*
+Explicação das opções usadas:
+
+"rootDir": "./src" → Define que todos os arquivos TypeScript estão dentro de src.
+"outDir": "./dist" → Todos os arquivos compilados vão para dist.
+"noEmit": false → Permite gerar arquivos na pasta de saída.
+"removeComments": true → Remove comentários nos arquivos compilados.
+"strict": true → Ativa verificações mais rigorosas do TypeScript.
+*/
