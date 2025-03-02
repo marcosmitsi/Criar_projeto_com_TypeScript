@@ -3,6 +3,21 @@
 * Node.js 22 ou superior → Conferir a Versão: node -v
 
 ## Como rodar o projeto baixado
+1º instalar as dependências indicadas pelo arquivo packege.json
+´´´
+npm install
+´´´
+
+2º compilar os arquivos TypeScript. -watch: O compilador fica monitorando os arquivos .ts do projeto. Sempre que um arquivo é alterado, o tsc recompila automaticamente as alterações para gerar os arquivos .js correspondentes.
+´´´
+npx tsc -watch
+´´´
+
+3º Executar o arquivo JavaScript compilado.
+´´´
+node dist/index.js
+´´´
+
 
 ## Sequencia para criar o projeto
 
